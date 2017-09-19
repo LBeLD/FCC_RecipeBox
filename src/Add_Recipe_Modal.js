@@ -75,8 +75,9 @@ export default class AddRecipeModal extends Component {
             imgUrl:''
           }
         })
+      } else {
+        alert('Please add a name to your recipe to save it');  
       }
-      alert('Please add a name to your recipe to save it');
     }
 
   render(){
