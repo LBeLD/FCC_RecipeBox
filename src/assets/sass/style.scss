@@ -1,0 +1,101 @@
+$headerColor: #2c3e50;
+$textColor: #bdc3c7;
+$buttonColorOrange: #d35400;
+
+*{
+  font-family: 'Audiowide', cursive;
+}
+
+.header{
+  background-color: $headerColor;
+  color:$textColor;
+  height: 60px;
+  text-align: center;
+    h3{
+      margin: 0;
+      padding: 15px;
+    }
+    span{
+      margin-left: 15px;
+    }
+}
+
+.addRecipeButton{
+  background-color: #c0392b;
+  border-radius: 50%;
+  padding: 1px 8px;
+  cursor: pointer;
+    &:hover{
+      color:#ffffff;
+    }
+}
+
+//Gallery Component
+
+.thumbNail{
+  cursor: pointer;
+  height: 330px;
+  overflow: hidden;
+  background-color: #ecf0f1;
+    &:hover{
+      background-color: $headerColor;
+    }
+    h4{
+      color:$textColor;
+      padding: 10px;
+    }
+}
+
+.gallery{
+  margin-top: 40px !important;
+  text-align: center;
+}
+
+img{
+  height: 242px !important;
+  width: 300px !important;
+  padding-top:20px;
+}
+
+//Add Recipe Modal
+
+.alert {
+  font-weight: bold;
+  color:#f92d0f;
+}
+.addRecipeModalFooter{
+  text-align: center;
+}
+
+.addRecipeModalButton{
+  width: 80px;
+}
+
+//Recipe Modal
+.modalImg img{
+  width: 100% !important;
+  height: 100% !important;
+  text-align: center;
+}
+
+.recipeModalButtons{
+  text-align: center;
+}
+
+.recipeModalButton{
+  width: 80px;
+}
+
+.glyphicon-remove{
+  color:$buttonColorOrange;
+  margin-left: 15px;
+  cursor:pointer;
+}
+
+ul{
+  margin: 0 !important;
+}
+
+.inputField{
+  margin-top: 10px;
+}
