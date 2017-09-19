@@ -42,7 +42,7 @@ export default class App extends Component{
       name:'Pizza Dough',
       ingredients:['3 cups all-purpose flour', '1 (.25 ounce) package active dry yeast','2 tablespoons vegetable oil', '1 teaspoon salt', '1 tablespoon white sugar', '1 cup warm water (110 degrees F/45 degrees C)'],
       instructions:['Combine flour, salt, sugar, and yeast in a large bowl. Mix in oil and warm water. Spread out on a large pizza pan. Top as desired.','Bake at 375 degrees C (190 degrees C) for 20 to 25 minutes.'],
-      imgUrl:'http://ctboom.com/wp-content/uploads/connecticut-pizza-robbery.jpg'
+      imgUrl:'https://static1.squarespace.com/static/55a506a8e4b025e7c4de7ed3/t/561d30aae4b059979c67b663/1444753579763/pep-pizza.jpg'
     },
       {
         name:'Waffles',

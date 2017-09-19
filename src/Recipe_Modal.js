@@ -216,7 +216,6 @@ export default class RecipeModal extends Component {
     let noImage = 'http://lakefarmbeef.co.nz/wp-content/themes/lakefarm/img/noimage.png';
     let recipe = this.props.recipes;
     let index = this.props.index;
-    console.log(this.props.recipes[index].ingredients);
     return(
       <div>
         <Modal show={this.props.showRecipeModal} onHide={this.props.closeRecipeModal}>
