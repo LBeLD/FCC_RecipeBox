@@ -8,7 +8,7 @@ export default class Galley extends Component {
   }
 
   render() {
-    let noImage = 'http://lakefarmbeef.co.nz/wp-content/themes/lakefarm/img/noimage.png';
+    let noImage = 'https://www.moderndaymystic.com/wp-content/themes/laneluxury//assets/images/no-image-1280x800.jpg';
     return(
       <div className='gallery'>
         <Grid>
