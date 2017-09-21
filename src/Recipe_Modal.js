@@ -265,6 +265,7 @@ export default class RecipeModal extends Component {
               <InputGroup className='inputField'>
                 <FormControl
                   type="text"
+                  placeholder='Add new ingredient and hit Enter'
                   value={this.state.newIngredient}
                   onChange={this.handleAddNewIngredient}
                   onKeyPress={this.handleEnterSaveIngredient}/>
@@ -276,7 +277,7 @@ export default class RecipeModal extends Component {
               </InputGroup>
             </FormGroup>
             <hr />
-            <h4>Instructions:</h4>
+            <h4>How to Prepare:</h4>
             <ul>
               {recipe[index].instructions.map((instruction, index) =>{
                 return(
@@ -305,6 +306,7 @@ export default class RecipeModal extends Component {
               <InputGroup className='inputField'>
                 <FormControl
                   type="text"
+                  placeholder='Add new instruction an hit Enter'
                   value={this.state.newInstruction}
                   onChange={this.handleAddNewInstruction}
                   onKeyPress={this.handlEnterSaveInstruction}/>

@@ -76,7 +76,7 @@ export default class AddRecipeModal extends Component {
           }
         })
       } else {
-        alert('Please add a name to your recipe to save it');  
+        alert('Please add a name to your recipe to save it');
       }
     }
 
@@ -97,18 +97,18 @@ export default class AddRecipeModal extends Component {
                 onChange={this.handleAddNewRecipeName}/>
             </FormGroup>
             <FormGroup controlId="formControlsTextarea">
-             <ControlLabel>Enter Recipe Ingredients :</ControlLabel>
+             <ControlLabel>Recipe Ingredients :</ControlLabel>
              <FormControl
                componentClass="textarea"
-               placeholder="Enter ingredients spaced by commas"
+               placeholder="Enter ingredients, separated, by a comma"
                value={this.state.newRecipe.ingredients}
                onChange={this.handleAddNewRecipeIngredients}/>
            </FormGroup>
            <FormGroup controlId="formControlsTextarea">
-            <ControlLabel>Recipe Instructions :</ControlLabel>
+            <ControlLabel>How to Prepare :</ControlLabel>
             <FormControl
               componentClass="textarea"
-              placeholder="Enter instructions spaced by commas"
+              placeholder="Enter instructions, separated, by a comma"
               value={this.state.newRecipe.instructions}
               onChange={this.handleAddNewRecipeInstruction}/>
           </FormGroup>
